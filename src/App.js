@@ -1,9 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import GlobalStyle from './global/style'
 
 function App() {
   return (
     <div className="App">
+      <GlobalStyle /> 
       Olá, mundo!
     </div>
   );
